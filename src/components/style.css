@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container {
+    width: 350px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+    border-style: none solid none solid; 
+    border-color: teal;
+    border-width: 2px;
+}
+.main-block{
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.wrapper{
+    text-align: left;
+    padding-bottom: 40px;
+    font-weight: bold;
+    padding: 5px 0 0 5px;
+}
+.icon-place, h2, h4{
+    text-align: center;
+    
+}
+.icon-place{
+    padding-bottom: 5px;
+}
+h2{
+    padding-bottom: 40px;
+}
+.wind{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.flex-container-2{
+    background-color: white;
+}
+.one-day{
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    border-style: none none solid none; 
+    border-color: teal;
+    border-width: 2px;
+    align-items: center;
+}
+.day-icon{
+    padding-right: 45px;
+}
